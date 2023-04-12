@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer WEBPAGE</title>
+
+</head>
+
+<body>
+
+    <h1> Mi Formulario de Registro</h1>
+    <form action="/action_page.php" method="get">
+        <label for="fname">Nombre:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Apellido:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="lname"><br><br>
+        <label for="psw">Contraseña:</label>
+        <input type="password" id="psw" name="lname"><br><br>
+        <label for="cpsw">Confirmar:</label>
+        <input type="password" id="cpsw" name="lname"><br><br>
+        <div>
+                 <label for="cumple">Cumpleaños</label>
+                <input type="date" id="cumple" name="lname">
+        </div>
+<div>
+            <input type="radio" id="hombre">
+            <label for="hombre"> Hombre </label>
+            <input type="radio" id="mujer">
+            <label for="mujer"> Mujer </label>
+            <input type="radio" id="otro">
+            <label for="otro"> Otro </label>
+        </div>
+        <p > Una breve descripcion de ti:</p>
+        <textarea  cols="30" rows="5"></textarea> <br>
+
+        <div>
+            <label for="lenguajes"> Lenguaje Favorito</label>
+            <select id="lenguajes">
+                <option value="1">Javascript </option>
+                <option value="2">Java</option>
+                <option value="3">Python</option>
+                <option value="4"> Golang</option>
+                <option value="5"> PHP</option>
+            </select>
+        </div>
+        <br>
+        <input type="submit" value="Enviar">
+</body>
+
+</html>
