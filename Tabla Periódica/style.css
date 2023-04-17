@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* outline: 1px solid red; */
+}
+
+div.container {
+    width: 1100px;
+    margin: 50px auto;
+    height: 600px;
+    background-color: rgb(220, 228, 236);
+}
+
+p {
+    display: inline-block;
+    vertical-align: top;
+    width: 45px;
+    height: 37px;
+    padding: 15px 4px 0px 4px;
+    text-align: center;
+    color: orangered;
+}
+
+div.blue {
+    display: inline-block;
+    width: 166px;
+    margin-top: 3px;
+}
+
+div.blue h3 {
+    background-color: rgb(86, 158, 249);
+}
+
+div.red {
+    display: inline-block;
+    width: 556px;
+    margin: 0px 0px 20px 13px;
+}
+
+div.red h3 {
+    background-color: rgb(255, 152, 153);
+}
+
+div.yellow {
+    display: inline-block;
+    width: 333px;
+}
+
+div.yellow h3 {
+    background-color: yellow;
+}
+
+div.yellow div.empty-2 {
+    display: inline-block;
+    width: 276px;
+    height: 48px;
+}
+
+h3 {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    padding: 3px;
+    margin: 0px -1px 3px 0px;
+    text-align: center;
+    color: blue;
+    background-color: aquamarine;
+    border: 1px solid grey;
+}
+
+h3 span {
+    display: block;
+    font-size: 10px;
+    color: black;
+    font-weight: lighter;
+}
+
+div.row p {
+    display: inline-block;
+    vertical-align: top;
+    width: 45px;
+    height: 45px;
+}
+
+div.name {
+    display: inline-block;
+    width: 125px;
+    height: 100px;
+    margin-left: 55px;
+}
+
+div.name p {
+    width: 105px;
+    text-align: left;
+}
+
+div.name h6 {
+    display: inline-block;
+    margin-top: 15px;
+    color: orangered;
+}
+
+div.green {
+    display: inline-block;
+    vertical-align: top;
+    width: 794px;
+}
+
+div.green h3 {
+    background-color: rgb(0, 202, 65);
+}
